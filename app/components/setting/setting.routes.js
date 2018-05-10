@@ -11,7 +11,7 @@
                 controller: 'SettingController',
                 controllerAs: 'vm',
                 ncyBreadcrumb: {
-                    label: 'Cài đặt'
+                    label: 'Setting'
                 }
             });
     }
