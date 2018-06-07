@@ -25,28 +25,28 @@
             {
                 type: "Xà Lách",
                 highTemp: 25,
-                mediTemp: 25,
+                mediTemp: 20,
                 lowTemp: 15,
                 highHud: 80,
-                mediHud: 80,
+                mediHud: 60,
                 lowHud: 70
             },
             {
                 type: "Bó Xôi",
                 highTemp: 25,
-                mediTemp: 25,
+                mediTemp: 20,
                 lowTemp: 15,
                 highHud: 80,
-                mediHud: 80,
+                mediHud: 60,
                 lowHud: 70
             },
             {
                 type: "Cải Bắp",
                 highTemp: 25,
-                mediTemp: 25,
+                mediTemp: 20,
                 lowTemp: 15,
                 highHud: 80,
-                mediHud: 80,
+                mediHud: 60,
                 lowHud: 70
             }
         ]
