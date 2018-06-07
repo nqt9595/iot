@@ -25,23 +25,29 @@
             {
                 type: "Xà Lách",
                 highTemp: 25,
+                mediTemp: 25,
                 lowTemp: 15,
                 highHud: 80,
+                mediHud: 80,
                 lowHud: 70
             },
             {
                 type: "Bó Xôi",
-                highTemp: 20,
+                highTemp: 25,
+                mediTemp: 25,
                 lowTemp: 15,
                 highHud: 80,
+                mediHud: 80,
                 lowHud: 70
             },
             {
                 type: "Cải Bắp",
-                highTemp: 20,
-                lowTemp: 18,
-                highHud: 85,
-                lowHud: 75
+                highTemp: 25,
+                mediTemp: 25,
+                lowTemp: 15,
+                highHud: 80,
+                mediHud: 80,
+                lowHud: 70
             }
         ]
         vm.zone2Default = [
