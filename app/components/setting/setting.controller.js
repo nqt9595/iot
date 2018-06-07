@@ -24,30 +24,30 @@
         vm.zone1Default = [
             {
                 type: "Xà Lách",
-                highTemp: 25,
-                mediTemp: 20,
-                lowTemp: 15,
-                highHud: 80,
-                mediHud: 60,
-                lowHud: 70
+                tc: 25,
+                tt: 15,
+                dc: 40,
+                dt: 30,
+                hc: 80,
+                ht: 30
             },
             {
                 type: "Bó Xôi",
-                highTemp: 25,
-                mediTemp: 20,
-                lowTemp: 15,
-                highHud: 80,
-                mediHud: 60,
-                lowHud: 70
+                 tc: 25,
+                tt: 15,
+                dc: 40,
+                dt: 30,
+                hc: 80,
+                ht: 30
             },
             {
                 type: "Cải Bắp",
-                highTemp: 25,
-                mediTemp: 20,
-                lowTemp: 15,
-                highHud: 80,
-                mediHud: 60,
-                lowHud: 70
+                tc: 25,
+                tt: 15,
+                dc: 40,
+                dt: 30,
+                hc: 80,
+                ht: 30
             }
         ]
         vm.zone2Default = [
