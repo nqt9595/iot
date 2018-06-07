@@ -1,70 +1,58 @@
-<style type="text/css">
-<!--
-.style6 {font-size: x-small}
-.style7 {font-size: small}
--->
-</style>
 <div class="row">
     <div class="col-md-12">
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <div> {{vm.connected1?'Đã kết nối' : 'Đang kết nối'}}        </div>
+        <div> {{vm.connected1?'Đã kết nối' : 'Đang kết nối'}}
+        </div>
         <div ng-show="!vm.connected1 || vm.wait1" class="loader" aria-hidden="true"></div>
-        <p><br>
-          <br>
-          <br>
-          <strong ng-show="vm.wait1">Vui lòng chờ...</strong>
-          <br>
-          <div>
-        </p>
-        <div class="panel panel-green">
+        <br>
+        <br>
+        <br>
+        <br>
+        <strong ng-show="vm.wait1">Vui lòng chờ...</strong>
+        <br>
+        <div>
+            <div class="panel panel-green">
                 <div class="panel-heading">KHU VỰC 1</div>
                 <div class="panel-body pan">
                     <form class="form-horizontal ng-pristine ng-valid form-validate">
                         <div class="form-body pal">
                             <span>Cài đặt thông số</span>
-                            <table width="100%"  class="table table-hover table-striped table-bordered table-advanced tablesorter" style="width:20%">
-                          <thead>
+                            <table style="width:auto" class="table table-hover table-striped table-bordered table-advanced tablesorter">
+                                <thead>
                                     <tr>
-                                        <th><span class="style6">LOẠI CÂY</span></th>
-                                        <th><span class="style7">NHIỆT ĐỘ CAO NHẤT </span></th>
-    									
-                                        <th><span class="style7">NHIỆT ĐỘ THẤP NHẤT</span> </th>
+                                        <th>LOẠI CÂY</th>
+                                        <th>NHIỆT ĐỘ CAO NHẤT </th>
+    
+                                        <th>NHIỆT ĐỘ THẤP NHẤT</th>
+                                        <th>ĐỘ ẨM CAO NHẤT</th>
                                         
-                                        <th><span class="style7">ĐỘ ẨM CAO NHẤT</span></th>
+                                        <th>ĐỘ ẨM THẤP NHẤT</th>
+                                        <th>ĐỘ ẨM ĐẤT CAO NHẤT </th>
+    
+                                        <th>ĐỘ ẨM ĐẤT THẤP NHẤT</th>
                                         
-                                        <th><span class="style7">ĐỘ ẨM THẤP NHẤT</span></th>
-                                        
-                                        <th><span class="style7">ĐỘ ẨM ĐẤT CAO NHẤT </span></th>
-    									
-                                        <th><span class="style7">ĐỘ ẨM ĐẤT THẤP NHẤT </span></th>
                                     </tr>
-                              <tbody>
-                              <td> <select style="width:100%" id="extra-service" lang="en" class="form-control" ng-model="vm.item1"
-                                               ng-change="vm.zone1Change(vm.item1)" ng-options="et as et.type for et in vm.zone1 track by et.type"></select></td>
-                                                                                                                                                                                    </select></td>
-                                        <td><input type="number" size = 10%  ng-model="vm.item1.tc " /></td>
-                                        
-                                        <td><input type="number" size = 10%  ng-model="vm.item1.tt " /></td>
-                                        
-                                        <td><input type="number" size = 10%  ng-model="vm.item1.dc " /></td>
-                                        
-                                        <td><input type="number" size = 10%  ng-model="vm.item1.dt " /></td>
-                                        
-                                        <td><input type="number" size = 10%  ng-model="vm.item1.hc " /></td>
-                                        
-                                        <td><input type="number" size = 10%  ng-model="vm.item1.ht " /></td>
+                                    <tbody>
+                                        <td><select name="extra-service" class="form-control" id="extra-service2" style="width:auto" lang="en" ng-model="vm.item1"
+                                               ng-change="vm.zone1Change(vm.item1)" ng-options="et as et.type for et in vm.zone1 track by et.type">
+                                        </select></td>
+                                          <td><input type="number" size = 15% ng-model="vm.item1.tc " /></td>
+                                          <td><input type="number" size = 15% ng-model="vm.item1.tt " /></td>
+                                        <td><input type="number" size = 15% ng-model="vm.item1.dc " /></td>
+                                        <td><input type="number" size = 15% ng-model="vm.item1.dt " /></td>
+                                        <td><input type="number" size = 15% ng-model="vm.item1.hc " /></td>
+                                          <td><input type="number" size = 15% ng-model="vm.item1.ht " /></td>
+                      
 
                                     </tbody>
                                 </thead>
-                          </table>
-                          <button class="btn btn-success style7" ng-click="vm.send(1) ">Gửi</button>
+                            </table>
+                          <button class="btn btn-success " ng-click="vm.send(1) ">Gửi</button>
                         </div>
                         <div class="form-action ">
-                            <div class="col-md-offset-3 col-md-9 ">                            </div>
+                            <div class="col-md-offset-3 col-md-9 ">
+
+                            </div>
                         </div>
                     </form>
                 </div>
-</div>
-
-           
+            </div>
